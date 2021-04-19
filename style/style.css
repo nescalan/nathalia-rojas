@@ -1,0 +1,78 @@
+/*CSS Document*/
+:root {
+    --salmon: #FF938C;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --babypink: #FF99AE;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+/*    background-color: #FF6F8C;*/
+
+}
+html {
+    font-size: 62.5%;
+    background: linear-gradient(300deg, var(--pink) 16.69%, var(--salmon) 100%);     
+    font-family: "Poppins", Verdana, sans-serif;
+}
+
+/*---------- MAIN ---------*/
+main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.section--1 {
+    padding: 10px;
+    border: 3px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section--1 .col1 {
+    width: 50rem;
+    height: 50rem;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 10.5rem 0 0 10rem;
+    background-color: #FFFFFF;
+    box-shadow: 5px 10px 25px var(--pink);    
+/*
+    text-align: left;
+    height: 700px;  
+    width: 700px;
+*/
+}
+.section--1 .col1 h1 {
+    font-size: 10rem;
+}
