@@ -42,6 +42,8 @@
 }
 
 
+
+
 html {
     font-size: 62.5%;
     font-family: "Poppins", Verdana, sans-serif;
@@ -56,8 +58,6 @@ main {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
-
 }
 .section--1 {
     margin-top: 2rem;
@@ -96,4 +96,16 @@ main {
 .section--1 .col2 img {
     border-radius: 50%;
     border: 4px solid #fff;    
+}
+.section--1 .col3 {
+    display: flex;
+    justify-content: space-around;
+}
+.section--1 .col3 .contact {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 15px 0 0 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
 }
