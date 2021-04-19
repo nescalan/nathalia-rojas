@@ -41,10 +41,12 @@
 
 }
 
+
 html {
     font-size: 62.5%;
-    background: linear-gradient(300deg, var(--pinksunrise) 16.69%, var(--salmon) 100%);     
     font-family: "Poppins", Verdana, sans-serif;
+    background: linear-gradient(300deg, var(--pinksunrise) 16.69%, var(--salmon) 100%);     
+    background-repeat: no-repeat;
 }
 
 /*---------- MAIN ---------*/
@@ -52,13 +54,13 @@ main {
     width: 95%;
     height: auto;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 .section--1 {
     margin-top: 2rem;
-/*    border: 3px solid white;*/
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 
 .badge {
@@ -84,4 +86,14 @@ main {
 }
 
 .section--1 .col2 {
+    width: 29rem;
+    height: auto;
+    display: flex;
+    margin: 3rem 0 3rem 0;
+    justify-content: center;    
+}
+
+.section--1 .col2 img {
+    border-radius: 50%;
+    border: 4px solid #fff;    
 }
