@@ -47,7 +47,6 @@ html {
 
 /*---------- MAIN ---------*/
 main {
-    border: 1px solid white;
     width: 95%;
     height: auto;
     margin: 0 auto;
@@ -55,7 +54,6 @@ main {
     justify-content: center;
 }
 .section--1 {
-    border: 1px solid green;
     margin-top: 2rem;
 }
 
@@ -136,7 +134,6 @@ main {
     font-weight: 400;    
     }
     .col2, .col3 {
-        border: 1px solid blue;
         display: inline;
     }
 }
